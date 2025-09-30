@@ -4,7 +4,7 @@
   "description": "Playwright test suite for Fleet Management platform",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/browserstack-node-sdk node ./node_modules/.bin/playwright test",
+    "test": "./node_modules/.bin/browserstack-node-sdk ./node_modules/.bin/playwright test",
     "test:headed": "npx playwright test --headed",
     "test:debug": "npx playwright test --debug",
     "test:ui": "npx playwright test --ui",
