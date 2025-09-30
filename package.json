@@ -4,13 +4,13 @@
   "description": "Playwright test suite for Fleet Management platform",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test",
-    "test:headed": "playwright test --headed",
-    "test:debug": "playwright test --debug",
-    "test:ui": "playwright test --ui",
-    "test:report": "playwright show-report",
-    "test:codegen": "playwright codegen",
-    "install-browsers": "playwright install",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "test:codegen": "npx playwright codegen",
+    "install-browsers": "npx playwright install",
     "auth:setup": "node utils/generate-auth.js"
   },
   "keywords": [
