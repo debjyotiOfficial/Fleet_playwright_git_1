@@ -31,5 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Make binaries executable
+        run: chmod +x ./node_modules/.bin/*
+
       - name: Run BrowserStack tests
         run: npm run test
